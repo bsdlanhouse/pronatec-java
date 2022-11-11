@@ -1,0 +1,54 @@
+public class main
+{
+    
+      public static void main(String[] args)
+    {
+        //System.out.println("Hello, world!");
+     
+     boolean var_boolean = false;
+        int idade = 20;
+        float peso = 90.7f;
+        double altura = 1.90;
+        char letra ='c';
+        String name = "João das Neves";
+
+        //System.out.println("O conteúdo da variável boolean é:" +var_boolean);
+         //System.out.println("O conteúdo da variável inteiro é:" +idade);
+           //System.out.println("O conteúdo da flutuante é:" +peso);
+             //System.out.println("O conteúdo da dobro é:" +altura);
+              //System.out.println("O conteúdo da caracter é:" +letra);
+              
+               //System.out.print("O " +name+ "tem " +idade+ " anos" +. toUpperCase() );
+              
+              
+               // System.out.print(" tem" +idade );
+
+               //Conversao para letra maiuscula : toUpperCase()
+                    //EX
+                        //System.out.print("O " +name .toUpperCase() + " tem " .toUpperCase()  +idade+ " anos " .toUpperCase() );
+   
+  // System.out.println(name.toUpperCase());
+
+                //Conversao para letra minuscula : toLowerrCase()
+                    //EX
+                        System.out.println("O " +name .toLowerCase() + " tem " .toLowerCase()  +idade+ " anos " .toLowerCase() );
+
+                
+                //Contagem de caracteres : .length()
+                    //EX
+                        System.out.println("Contagem de caracteres : " +name.length() ); 
+
+
+                //Comparar caracteres ou string dentro de uma string - equals('char').
+                    System.out.println(name.equals("Joao"));
+
+                 //Comparar caracteres ou string dentro de uma string - equals('char').
+                    System.out.println(name.equals("Joao das"));
+    
+                 //Comparar caracteres ou string dentro de uma string - equals('char').
+                    System.out.println(name.equals("Joao das neves"));
+
+                 //Comparar caracteres ou string dentro de uma string - equals('char').
+                    System.out.println(name.equals("João das Neves"));
+    }
+}

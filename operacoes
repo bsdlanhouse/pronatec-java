@@ -1,0 +1,21 @@
+public class main2
+{
+    
+    public static void main(String[] args)
+    {
+       int x = 10;
+       int y = 35;
+       
+        System.out.println("Soma :"+(x+y));
+        System.out.println("Subtracao :"+(x-y));
+        System.out.println("Multiplicacao :"+(x*y));
+        System.out.println("Divisao :"+(y/x));
+        System.out.println("Resto da divisao :"+(y%x));
+
+        if (y%x==0)
+        System.out.println("Número Par");
+        else
+        System.out.println("Número Impar");
+    }
+}
+
